@@ -1,0 +1,16 @@
+Built a simple yet effective data engineering automation project that extracts tabular data from PDF reports, transforms it using Python, exports it to Excel, and loads it into SQL Server.
+
+Tech Stack: Python, Camelot, Pandas, Excel, SQL Server
+
+Camelot is an open-source Python library used to extract tables from PDF files and convert them into structured data such as pandas DataFrames.
+
+Key learnings:
+
+PDF table extraction with Camelot
+Data cleaning using Pandas
+Automated Excel generation
+Loading data into SQL Server using SQLAlchemy
+
+This project demonstrates how repetitive document-based data entry can be transformed into an automated ETL workflow.
+
+#DataEngineering #Python #SQLServer #Pandas #ETL #Automation #DataAnalytics #Camelot #LearningInPublic #LinkedInProjects
