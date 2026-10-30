@@ -2,7 +2,7 @@ import pandas as pd
 from sqlalchemy import create_engine
 
 server = "localhost"
-database = "SuperStore"
+database = "databasename"
 
 engine = create_engine(
     f"mssql+pyodbc://@{server}/{database}"
@@ -15,7 +15,7 @@ df = pd.read_excel("output.xlsx")
 
 # Create/replace table
 df.to_sql(
-    "product",
+    "TableName",
     con=engine,
     if_exists="replace",  # replace, append, fail
     index=False
